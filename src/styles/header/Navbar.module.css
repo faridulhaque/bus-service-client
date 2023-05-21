@@ -1,0 +1,76 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to left, #261B83, #A504F7);
+}
+
+.navbar>div {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    font-size: 2.5em;
+    width: auto;
+    color: white;
+
+}
+
+.navItems {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navItems > ul {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navItems a {
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navItems a:hover {
+    color: #FF8AAB;
+  
+}
+
+.contact {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact>a {
+    font-size: 1.5em;
+    color: white;
+    width: auto;
+
+}
+
+.contact .icon {
+    font-size: 2em;
+    width: auto;
+    color: #FFAE02;
+
+}
