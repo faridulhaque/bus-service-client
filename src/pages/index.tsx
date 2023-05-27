@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/header/Navbar";
 import Intro from "@/components/header/Intro";
+import Ticket from "@/components/header/Ticket";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Navbar></Navbar>
         <div className="header-violet">
           <Intro></Intro>
+          <Ticket></Ticket>
         </div>
       </header>
 

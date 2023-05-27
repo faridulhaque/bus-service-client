@@ -1,0 +1,9 @@
+.ticket{
+    position:absolute;
+    bottom: -5%;
+    width: 80%;
+    margin: 0 10%;
+    background-color: white;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
+    height: 250px;
+}
