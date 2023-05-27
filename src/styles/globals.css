@@ -23,8 +23,7 @@ header{
 }
 
 .header-violet{
-    background-color: #261B83;
-    opacity: 0.5;
+    background-color: rgba(38, 27, 131, 0.5);
     height: calc(95vh - 80px);
     width: 100%;
 }

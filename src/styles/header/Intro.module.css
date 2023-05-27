@@ -1,0 +1,61 @@
+.intro {
+    width: 90%;
+    margin: 0 0 0 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.textContainer {
+    width: 40%;
+    height: 80%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.textContainer h1 {
+    font-size: 7em;
+    color: #FFAE02;
+
+}
+
+.textContainer h2 {
+    font-size: 5em;
+    color: white;
+}
+
+.textContainer p {
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    color: white;
+
+
+}
+
+
+.imgContainer {
+    width: 55%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.imgContainer>img {
+    width: 100%;
+    height: auto;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
